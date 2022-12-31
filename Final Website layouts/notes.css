@@ -1,0 +1,86 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+body{
+    height: 2000px ;
+}
+.ntaglineimg{
+    /* background-color: azure; */
+    display: grid;
+    grid-template-columns: 750px auto;
+    grid-template-rows: 500px   ;
+    margin-left: 120px ;
+    margin-right: 80px ;
+
+}
+.nline{
+    /* border: 2px solid red; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       
+}
+.nimage{
+    /* border: 2px solid rgb(0, 0, 0); */
+}
+.nline h1{
+    font-size: 70px ;
+}
+.nline h2{
+    font-size: 50px ;
+    color: blue;
+}
+.nline p{
+    font-size: 30px ;
+     position: absolute;
+      top: 500px ;
+     left: 100px ;
+     
+}
+ 
+ 
+/* img */
+.nimage{
+     
+    display: flex;
+    justify-content: center;
+}
+/* Noteslines */
+.maiboxn{
+    border: 2px soluid red ;
+}
+.notesmain{
+    /* border: 2px solid green ; */
+    margin-left: 180px ;
+    margin-right: 180px ;
+    display: grid;
+    grid-template-columns: 175px 175px 175px ;
+    grid-template-rows: 80px 80px 80px ;
+    justify-content: space-around;
+    grid-gap: 20px  ;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px ;
+    color: white;
+
+}
+.button{
+    border: 2px solid rgb(240, 235, 235) ;
+    border-radius: 200px ;
+    background-color: rgb(119, 119, 252);
+    
+}
+ 
+.button a {text-decoration: none;
+    color: white;
+     
+    
+}
+ 
+ 
+     
+ 
+ 

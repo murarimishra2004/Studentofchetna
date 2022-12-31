@@ -1,0 +1,254 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+body{
+    height: 2000px ;
+}
+/* counsellor  */
+.counsellor{
+    background-color:black;
+    text-align: center;
+    height: 30px ;
+    position: sticky;
+    top: 1px ;
+   
+}
+.counsellor h2{ color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px ;
+    padding: 3px ;
+   
+}
+
+/* navigqation menu */
+.navigationmenu{/*border: 2px solid red;*/
+  display: flex;
+  justify-content: center;
+   
+  background-color: rgb(119, 119, 252);
+  text-align: center;
+
+
+
+}
+.logo{/*border: 2px solid rgb(234, 226, 226);*/
+    position: absolute;
+    left: 90px ;
+   
+
+}
+.logoimage{     height: 63px;
+    width: 100px;
+    
+
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+   
+
+}
+.navbar ul li{ text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 30px;
+    font-size: 19px ;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: white;
+   }
+   .navbar a{color: aliceblue;
+    text-decoration: none;
+    
+   }
+.navbar ul li a:hover{color: rgb(0, 0, 0); }
+     
+ /* Menucarsd  */
+ .bigbox{
+    /* background-color: aqua; */
+ }
+ .menucard{
+    /* background-color: #adadd0; */
+    height: 550px ;
+    display: grid;
+    grid-template-columns: 900px auto ;
+    grid-template-rows: 450px  auto  ;
+    
+   
+     
+
+    
+ }
+  .linesmenu{text-align: center;
+    padding: 90px  2px ;
+    /* border: 2px solid red ;
+      */
+    
+     
+
+ }
+ .first {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 71px ;
+color: black;
+ } 
+ .sec-third{position: absolute;
+   left: 300px ;
+   top: 327px ;
+
+ }
+ #sec h1{  text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 90px ;
+color: rgb(48, 0, 241);
+
+ }
+ #third h3{
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px ;
+color: black;
+position: absolute;
+top: 92px;
+left: 76px;
+ }
+ /* .utube{
+   position: absolute;
+   top: 400px ;
+ }
+  */
+   
+
+ 
+
+ 
+ .imgmenu{
+     /* border: 2px solid rgb(0, 255, 72) ; */
+    margin-top: 17px ;
+  
+
+ }
+ .imgmenu img{ height: 500px ;
+   width: 500px ;
+     
+  
+
+ }
+ /* whoare we  */
+ .who{
+  
+   /* background-color: rgb(148, 148, 255); */
+   text-align: center;
+   display: grid;
+   grid-template-columns: 700px auto  ;
+   grid-template-rows: 400px ;
+   justify-content: center;
+   
+    
+
+ }
+ .imglineswho{background-color: rgb(207, 207, 207);
+  margin-left: 5px ;
+   /* border: 2px solid green ; */
+ }
+ .LINES{/*border: 2px solid red ;*/
+   font-family: 'Times New Roman', Times, serif;
+   padding: 2px 22px 59px 19px   ;
+  
+
+ }
+ .whorwe h1{ 
+   font-size: 30px ;
+
+ }
+ .answer h1{ 
+   color: blue;
+   font-size: 40px ;
+
+ }
+ .answee p{font-size: 20px ;
+
+ }
+ /* whychetna */
+ .mainline{
+    text-align: center;
+    margin-top: 60px ;
+ 
+ }
+ .mainline h1 {
+    text-align: center;
+    font-size: 40px ;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+     
+
+ }
+ .mainline  h2 {
+    text-align: center;
+    font-size: 60px ;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+   
+
+ }
+ .box{
+    display: grid;
+    grid-template-columns: 1400px ;
+    grid-template-rows: 300px 300px 300px 300px ;
+    justify-content: center;
+    /* gap: 44px; */
+ }
+ #box-1{
+   /* border: 2px solid  red ; */
+    
+ }
+ #box-2{
+   /* border: 2px solid  green  ; */
+
+ }
+ #box-3{
+   /* border: 2px solid  blue ; */
+
+ }
+ #box-4{
+   /* border: 2px solid pink ; */
+
+ }
+ .boxes{display: grid;
+    grid-template-columns: 900px auto  ;
+    grid-template-rows: 300px ;
+
+ }
+ .boxesimg{
+   /* border: 2px solid red ; */
+   text-align: center;
+
+ }
+ .boxesline{
+/* border: 2px solid green ; */
+ }
+ .boxesimg h1{font-family: 'Times New Roman', Times, serif;
+   font-size: 40px ;
+   color: blue;
+ }
+ .boxesimg p{font-family: 'Times New Roman', Times, serif;
+   font-size: 20px ;
+   padding-right: 110px ;
+   padding-left: 110px ;
+ }
+ /* notes page */
+  
+ 
+ 
+     
+
+ 
+ 
+ 
+ 
+ 
